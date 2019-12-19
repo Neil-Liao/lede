@@ -59,8 +59,8 @@ jobs:
           cd package
           mkdir openwrt-packages
           cd openwrt-packages
-          https://github.com/frainzy1477/clash.git
-          https://github.com/vernesong/OpenClash.git
+          git clone https://github.com/frainzy1477/clash.git
+          git clone https://github.com/vernesong/OpenClash.git
           
       - name: Update feeds
         run: |
